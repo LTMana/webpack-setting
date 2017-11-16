@@ -1,3 +1,5 @@
 {
-  "dependencies": {}
+  "dependencies": {
+    "webpack": "registry:dt/webpack#2.2.0+20170320160659"
+  }
 }
