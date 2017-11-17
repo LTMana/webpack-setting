@@ -1,8 +1,11 @@
 import React, { Component } from 'react'
 import ReactDOM from 'react-dom'
+import { fn1 } from './util'
 
+import '../style/index.less'
 class Demo extends Component {
   render () {
+    fn1()
     return (
       <div className="box">{this.props.text}</div>
     )
@@ -10,6 +13,6 @@ class Demo extends Component {
 }
 
 ReactDOM.render(
-  <Demo text="This is a text" />
-  document.querySelector('./container')
+  <Demo text="This is a text" />,
+  document.querySelector('.container')
 )
